@@ -12,6 +12,7 @@ public class VideoUtils {
 
         //测试测试
         //冲突存在
+        //分支数据
     }
     public native static void decode(String input,String output);
 }
