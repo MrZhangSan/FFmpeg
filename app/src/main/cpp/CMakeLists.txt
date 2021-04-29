@@ -16,11 +16,6 @@ project("ffmpeg")
 
 set(DISTRIBUTION_DIR ${CMAKE_SOURCE_DIR}/../jniLibs/)
 
-add_library( # Sets the name of the library.
-        ffmpeg-video
-        SHARED
-        ffmpeg_video.c)
-
 
 # 编解码(最重要的库)
 add_library(
