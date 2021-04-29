@@ -11,6 +11,7 @@ public class VideoUtils {
         System.loadLibrary("libswscale");
 
         //测试测试
+        //冲突存在
     }
     public native static void decode(String input,String output);
 }
